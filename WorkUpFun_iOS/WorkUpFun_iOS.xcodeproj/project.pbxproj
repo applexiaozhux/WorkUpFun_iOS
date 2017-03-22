@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7E30E31E7CC09F0091522A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E30E21E7CC09F0091522A /* main.m */; };
+		AA7E30E61E7CC09F0091522A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E30E51E7CC09F0091522A /* AppDelegate.m */; };
+		AA7E30E91E7CC09F0091522A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E30E81E7CC09F0091522A /* ViewController.m */; };
+		AA7E30EC1E7CC0A00091522A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7E30EA1E7CC0A00091522A /* Main.storyboard */; };
+		AA7E30EE1E7CC0A00091522A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7E30ED1E7CC0A00091522A /* Assets.xcassets */; };
+		AA7E30F11E7CC0A00091522A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7E30EF1E7CC0A00091522A /* LaunchScreen.storyboard */; };
+		AA7E30FC1E7CC0A00091522A /* WorkUpFun_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E30FB1E7CC0A00091522A /* WorkUpFun_iOSTests.m */; };
+		AA7E31071E7CC0A00091522A /* WorkUpFun_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E31061E7CC0A00091522A /* WorkUpFun_iOSUITests.m */; };
+		AA7E311A1E7CCE6C0091522A /* XYNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E31191E7CCE6C0091522A /* XYNetworking.m */; };
+		AA7E311E1E7CD0EA0091522A /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E311D1E7CD0EA0091522A /* NSDate+Extension.m */; };
+		AA7E31221E7D02930091522A /* dingdang.caf in Resources */ = {isa = PBXBuildFile; fileRef = AA7E31211E7D02930091522A /* dingdang.caf */; };
+		AA7E31251E7D1ECB0091522A /* XYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E31241E7D1ECB0091522A /* XYLoginViewController.m */; };
+		C85C9D1BFB8673AD2B60A778 /* libPods-WorkUpFun_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAFA2F90D09B24D8BA5C5F0 /* libPods-WorkUpFun_iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7E30F81E7CC0A00091522A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E30D61E7CC09F0091522A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E30DD1E7CC09F0091522A;
+			remoteInfo = WorkUpFun_iOS;
+		};
+		AA7E31031E7CC0A00091522A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E30D61E7CC09F0091522A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E30DD1E7CC09F0091522A;
+			remoteInfo = WorkUpFun_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29FB86BEA7FBFDBD5DD760C0 /* Pods-WorkUpFun_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkUpFun_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkUpFun_iOS/Pods-WorkUpFun_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		64A28A5E3912DF40547A6A76 /* Pods-WorkUpFun_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkUpFun_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkUpFun_iOS/Pods-WorkUpFun_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AA7E30DE1E7CC09F0091522A /* WorkUpFun_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkUpFun_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E30E21E7CC09F0091522A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7E30E41E7CC09F0091522A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA7E30E51E7CC09F0091522A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA7E30E71E7CC09F0091522A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA7E30E81E7CC09F0091522A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA7E30EB1E7CC0A00091522A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7E30ED1E7CC0A00091522A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA7E30F01E7CC0A00091522A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA7E30F21E7CC0A00091522A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E30F71E7CC0A00091522A /* WorkUpFun_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkUpFun_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E30FB1E7CC0A00091522A /* WorkUpFun_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkUpFun_iOSTests.m; sourceTree = "<group>"; };
+		AA7E30FD1E7CC0A00091522A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E31021E7CC0A00091522A /* WorkUpFun_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkUpFun_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E31061E7CC0A00091522A /* WorkUpFun_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkUpFun_iOSUITests.m; sourceTree = "<group>"; };
+		AA7E31081E7CC0A00091522A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E31151E7CC6300091522A /* WorkUpFun_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkUpFun_iOS.entitlements; sourceTree = "<group>"; };
+		AA7E31181E7CCE6C0091522A /* XYNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNetworking.h; sourceTree = "<group>"; };
+		AA7E31191E7CCE6C0091522A /* XYNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNetworking.m; sourceTree = "<group>"; };
+		AA7E311C1E7CD0EA0091522A /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		AA7E311D1E7CD0EA0091522A /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		AA7E31211E7D02930091522A /* dingdang.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dingdang.caf; sourceTree = "<group>"; };
+		AA7E31231E7D1ECB0091522A /* XYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLoginViewController.h; sourceTree = "<group>"; };
+		AA7E31241E7D1ECB0091522A /* XYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLoginViewController.m; sourceTree = "<group>"; };
+		DAAFA2F90D09B24D8BA5C5F0 /* libPods-WorkUpFun_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkUpFun_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7E30DB1E7CC09F0091522A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85C9D1BFB8673AD2B60A778 /* libPods-WorkUpFun_iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E30F41E7CC0A00091522A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E30FF1E7CC0A00091522A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97070DCF82528B56DE1C1423 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAAFA2F90D09B24D8BA5C5F0 /* libPods-WorkUpFun_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA7E30D51E7CC09F0091522A = {
+			isa = PBXGroup;
+			children = (
+				AA7E30E01E7CC09F0091522A /* WorkUpFun_iOS */,
+				AA7E30FA1E7CC0A00091522A /* WorkUpFun_iOSTests */,
+				AA7E31051E7CC0A00091522A /* WorkUpFun_iOSUITests */,
+				AA7E30DF1E7CC09F0091522A /* Products */,
+				B044C889664B935A3A6E789F /* Pods */,
+				97070DCF82528B56DE1C1423 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7E30DF1E7CC09F0091522A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E30DE1E7CC09F0091522A /* WorkUpFun_iOS.app */,
+				AA7E30F71E7CC0A00091522A /* WorkUpFun_iOSTests.xctest */,
+				AA7E31021E7CC0A00091522A /* WorkUpFun_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7E30E01E7CC09F0091522A /* WorkUpFun_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E311B1E7CD0BD0091522A /* Extension */,
+				AA7E31151E7CC6300091522A /* WorkUpFun_iOS.entitlements */,
+				AA7E30E41E7CC09F0091522A /* AppDelegate.h */,
+				AA7E30E51E7CC09F0091522A /* AppDelegate.m */,
+				AA7E30E71E7CC09F0091522A /* ViewController.h */,
+				AA7E30E81E7CC09F0091522A /* ViewController.m */,
+				AA7E30EA1E7CC0A00091522A /* Main.storyboard */,
+				AA7E30ED1E7CC0A00091522A /* Assets.xcassets */,
+				AA7E30EF1E7CC0A00091522A /* LaunchScreen.storyboard */,
+				AA7E30F21E7CC0A00091522A /* Info.plist */,
+				AA7E31171E7CCE6C0091522A /* XYNetworking */,
+				AA7E30E11E7CC09F0091522A /* Supporting Files */,
+				AA7E31231E7D1ECB0091522A /* XYLoginViewController.h */,
+				AA7E31241E7D1ECB0091522A /* XYLoginViewController.m */,
+			);
+			path = WorkUpFun_iOS;
+			sourceTree = "<group>";
+		};
+		AA7E30E11E7CC09F0091522A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E31211E7D02930091522A /* dingdang.caf */,
+				AA7E30E21E7CC09F0091522A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7E30FA1E7CC0A00091522A /* WorkUpFun_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E30FB1E7CC0A00091522A /* WorkUpFun_iOSTests.m */,
+				AA7E30FD1E7CC0A00091522A /* Info.plist */,
+			);
+			path = WorkUpFun_iOSTests;
+			sourceTree = "<group>";
+		};
+		AA7E31051E7CC0A00091522A /* WorkUpFun_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E31061E7CC0A00091522A /* WorkUpFun_iOSUITests.m */,
+				AA7E31081E7CC0A00091522A /* Info.plist */,
+			);
+			path = WorkUpFun_iOSUITests;
+			sourceTree = "<group>";
+		};
+		AA7E31171E7CCE6C0091522A /* XYNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E31181E7CCE6C0091522A /* XYNetworking.h */,
+				AA7E31191E7CCE6C0091522A /* XYNetworking.m */,
+			);
+			path = XYNetworking;
+			sourceTree = "<group>";
+		};
+		AA7E311B1E7CD0BD0091522A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E311C1E7CD0EA0091522A /* NSDate+Extension.h */,
+				AA7E311D1E7CD0EA0091522A /* NSDate+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B044C889664B935A3A6E789F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64A28A5E3912DF40547A6A76 /* Pods-WorkUpFun_iOS.debug.xcconfig */,
+				29FB86BEA7FBFDBD5DD760C0 /* Pods-WorkUpFun_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7E30DD1E7CC09F0091522A /* WorkUpFun_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E310B1E7CC0A00091522A /* Build configuration list for PBXNativeTarget "WorkUpFun_iOS" */;
+			buildPhases = (
+				15617EC4BFA1DD0EB15A09F9 /* [CP] Check Pods Manifest.lock */,
+				AA7E30DA1E7CC09F0091522A /* Sources */,
+				AA7E30DB1E7CC09F0091522A /* Frameworks */,
+				AA7E30DC1E7CC09F0091522A /* Resources */,
+				E83CF7BA244A9931DF80F50B /* [CP] Embed Pods Frameworks */,
+				DC4206A03DFCA54C0C4486D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkUpFun_iOS;
+			productName = WorkUpFun_iOS;
+			productReference = AA7E30DE1E7CC09F0091522A /* WorkUpFun_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7E30F61E7CC0A00091522A /* WorkUpFun_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E310E1E7CC0A00091522A /* Build configuration list for PBXNativeTarget "WorkUpFun_iOSTests" */;
+			buildPhases = (
+				AA7E30F31E7CC0A00091522A /* Sources */,
+				AA7E30F41E7CC0A00091522A /* Frameworks */,
+				AA7E30F51E7CC0A00091522A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7E30F91E7CC0A00091522A /* PBXTargetDependency */,
+			);
+			name = WorkUpFun_iOSTests;
+			productName = WorkUpFun_iOSTests;
+			productReference = AA7E30F71E7CC0A00091522A /* WorkUpFun_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA7E31011E7CC0A00091522A /* WorkUpFun_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E31111E7CC0A00091522A /* Build configuration list for PBXNativeTarget "WorkUpFun_iOSUITests" */;
+			buildPhases = (
+				AA7E30FE1E7CC0A00091522A /* Sources */,
+				AA7E30FF1E7CC0A00091522A /* Frameworks */,
+				AA7E31001E7CC0A00091522A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7E31041E7CC0A00091522A /* PBXTargetDependency */,
+			);
+			name = WorkUpFun_iOSUITests;
+			productName = WorkUpFun_iOSUITests;
+			productReference = AA7E31021E7CC0A00091522A /* WorkUpFun_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7E30D61E7CC09F0091522A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiyang;
+				TargetAttributes = {
+					AA7E30DD1E7CC09F0091522A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3MZD3465LC;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					AA7E30F61E7CC0A00091522A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3MZD3465LC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA7E30DD1E7CC09F0091522A;
+					};
+					AA7E31011E7CC0A00091522A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3MZD3465LC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA7E30DD1E7CC09F0091522A;
+					};
+				};
+			};
+			buildConfigurationList = AA7E30D91E7CC09F0091522A /* Build configuration list for PBXProject "WorkUpFun_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7E30D51E7CC09F0091522A;
+			productRefGroup = AA7E30DF1E7CC09F0091522A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7E30DD1E7CC09F0091522A /* WorkUpFun_iOS */,
+				AA7E30F61E7CC0A00091522A /* WorkUpFun_iOSTests */,
+				AA7E31011E7CC0A00091522A /* WorkUpFun_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7E30DC1E7CC09F0091522A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E31221E7D02930091522A /* dingdang.caf in Resources */,
+				AA7E30F11E7CC0A00091522A /* LaunchScreen.storyboard in Resources */,
+				AA7E30EE1E7CC0A00091522A /* Assets.xcassets in Resources */,
+				AA7E30EC1E7CC0A00091522A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E30F51E7CC0A00091522A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E31001E7CC0A00091522A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15617EC4BFA1DD0EB15A09F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4206A03DFCA54C0C4486D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkUpFun_iOS/Pods-WorkUpFun_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83CF7BA244A9931DF80F50B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkUpFun_iOS/Pods-WorkUpFun_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7E30DA1E7CC09F0091522A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E30E91E7CC09F0091522A /* ViewController.m in Sources */,
+				AA7E31251E7D1ECB0091522A /* XYLoginViewController.m in Sources */,
+				AA7E311E1E7CD0EA0091522A /* NSDate+Extension.m in Sources */,
+				AA7E30E61E7CC09F0091522A /* AppDelegate.m in Sources */,
+				AA7E311A1E7CCE6C0091522A /* XYNetworking.m in Sources */,
+				AA7E30E31E7CC09F0091522A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E30F31E7CC0A00091522A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E30FC1E7CC0A00091522A /* WorkUpFun_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E30FE1E7CC0A00091522A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E31071E7CC0A00091522A /* WorkUpFun_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7E30F91E7CC0A00091522A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E30DD1E7CC09F0091522A /* WorkUpFun_iOS */;
+			targetProxy = AA7E30F81E7CC0A00091522A /* PBXContainerItemProxy */;
+		};
+		AA7E31041E7CC0A00091522A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E30DD1E7CC09F0091522A /* WorkUpFun_iOS */;
+			targetProxy = AA7E31031E7CC0A00091522A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA7E30EA1E7CC0A00091522A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7E30EB1E7CC0A00091522A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7E30EF1E7CC0A00091522A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7E30F01E7CC0A00091522A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7E31091E7CC0A00091522A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA7E310A1E7CC0A00091522A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7E310C1E7CC0A00091522A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A28A5E3912DF40547A6A76 /* Pods-WorkUpFun_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WorkUpFun_iOS/WorkUpFun_iOS.entitlements;
+				DEVELOPMENT_TEAM = 3MZD3465LC;
+				INFOPLIST_FILE = WorkUpFun_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nongji360.WorkUpFun-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA7E310D1E7CC0A00091522A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FB86BEA7FBFDBD5DD760C0 /* Pods-WorkUpFun_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WorkUpFun_iOS/WorkUpFun_iOS.entitlements;
+				DEVELOPMENT_TEAM = 3MZD3465LC;
+				INFOPLIST_FILE = WorkUpFun_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nongji360.WorkUpFun-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA7E310F1E7CC0A00091522A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3MZD3465LC;
+				INFOPLIST_FILE = WorkUpFun_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nongji360.WorkUpFun-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkUpFun_iOS.app/WorkUpFun_iOS";
+			};
+			name = Debug;
+		};
+		AA7E31101E7CC0A00091522A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3MZD3465LC;
+				INFOPLIST_FILE = WorkUpFun_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nongji360.WorkUpFun-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkUpFun_iOS.app/WorkUpFun_iOS";
+			};
+			name = Release;
+		};
+		AA7E31121E7CC0A00091522A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3MZD3465LC;
+				INFOPLIST_FILE = WorkUpFun_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nongji360.WorkUpFun-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WorkUpFun_iOS;
+			};
+			name = Debug;
+		};
+		AA7E31131E7CC0A00091522A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3MZD3465LC;
+				INFOPLIST_FILE = WorkUpFun_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nongji360.WorkUpFun-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WorkUpFun_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7E30D91E7CC09F0091522A /* Build configuration list for PBXProject "WorkUpFun_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E31091E7CC0A00091522A /* Debug */,
+				AA7E310A1E7CC0A00091522A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7E310B1E7CC0A00091522A /* Build configuration list for PBXNativeTarget "WorkUpFun_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E310C1E7CC0A00091522A /* Debug */,
+				AA7E310D1E7CC0A00091522A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7E310E1E7CC0A00091522A /* Build configuration list for PBXNativeTarget "WorkUpFun_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E310F1E7CC0A00091522A /* Debug */,
+				AA7E31101E7CC0A00091522A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7E31111E7CC0A00091522A /* Build configuration list for PBXNativeTarget "WorkUpFun_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E31121E7CC0A00091522A /* Debug */,
+				AA7E31131E7CC0A00091522A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7E30D61E7CC09F0091522A /* Project object */;
+}
